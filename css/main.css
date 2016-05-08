@@ -323,7 +323,42 @@ h1, h3 {
 	padding-top: 160px;
 	height: 600px;
 	background: rgba(248,248,248,0.95);
+}
 
+.feature_full {
+	margin: 30px 0 0;
+}
+
+.detail_ {
+	text-align: center;
+	padding-top: 170px;
+	padding-bottom: 80px;
+	font-weight: 300;
+	bordr: 1px solid #000;
+	background: url(../img/gradient.png) repeat-x top left;
+	margin-top: -130px;
+	z-index: 2;
+	position: relative;
+}
+
+.detail_ a {
+	display: block;
+	margin-bottom: 30px;
+	font-size: 90%;
+}
+
+.detail_.push a {
+	color: #ef073f;
+}
+.detail_.point a {
+	color: #22a022;
+}
+.detail_.calld a {
+	color: #1e4b7d;
+}
+
+h3 {
+	font-size: 40px;
 }
 
 .hero h3 {
@@ -356,12 +391,41 @@ h1, h3 {
 } 
 
 .feat {
-	border: 1px solid #ccc;
+	brder: 1px solid #ccc;
 	height: 450px;
+	position: relative;
+	overflow: hidden;
 }
+
+.feat a {
+	bordr: 1px solid;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+}
+
+.feat.push a {
+	background: rgba(31,77,127, 0.6);
+}
+
+.feat.rpoint a {
+	background: rgba(34,160,64, 0.5);
+}
+
+.feat.call a {
+	background: rgba(239,7,63, 0.4);
+}
+
 
 .half_feat .feat {
 	height: 215px;
+}
+
+.rpoint img {
+	margin-top: -29%;
 }
 
 .mb {
